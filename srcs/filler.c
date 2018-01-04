@@ -8,12 +8,19 @@ int		main()
 	char	*line;
 	int 	fd;
 
-	fd = open("test", O_TRUNC);
-	while (get_next_line(0, &line))
+    int i;
+	fd = open("newfile", O_WRONLY | O_CREAT | O_TRUNC, S_IRWXO | S_IRWXG | S_IRWXU);
+    write (fd, "shit", 4);
+	while ((i = get_next_line(STDIN_FILENO, &line)))
 	{
+        if (line == NULL)
+            break;
 		write(fd, line, ft_strlen(line));
+        write(fd, "\n", 1);
 		free(line);
 	}
-	printf("Hello World\n");
-	return (0);
+    write(fd, "wtf?", 4);
+	write(0, "5 5\n", 4);
+    close (fd);
+    return (0);
 }
