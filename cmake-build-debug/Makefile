@@ -149,32 +149,59 @@ libft/fast:
 	$(MAKE) -f ft_printf/libftprintf/CMakeFiles/libft.dir/build.make ft_printf/libftprintf/CMakeFiles/libft.dir/build
 .PHONY : libft/fast
 
-get_next_line/get_current_map.o: get_next_line/get_current_map.c.o
+can_place.o: can_place.c.o
 
-.PHONY : get_next_line/get_current_map.o
+.PHONY : can_place.o
 
 # target to build an object file
-get_next_line/get_current_map.c.o:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_current_map.c.o
-.PHONY : get_next_line/get_current_map.c.o
+can_place.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/can_place.c.o
+.PHONY : can_place.c.o
 
-get_next_line/get_current_map.i: get_next_line/get_current_map.c.i
+can_place.i: can_place.c.i
 
-.PHONY : get_next_line/get_current_map.i
+.PHONY : can_place.i
 
 # target to preprocess a source file
-get_next_line/get_current_map.c.i:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_current_map.c.i
-.PHONY : get_next_line/get_current_map.c.i
+can_place.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/can_place.c.i
+.PHONY : can_place.c.i
 
-get_next_line/get_current_map.s: get_next_line/get_current_map.c.s
+can_place.s: can_place.c.s
 
-.PHONY : get_next_line/get_current_map.s
+.PHONY : can_place.s
 
 # target to generate assembly for a file
-get_next_line/get_current_map.c.s:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_current_map.c.s
-.PHONY : get_next_line/get_current_map.c.s
+can_place.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/can_place.c.s
+.PHONY : can_place.c.s
+
+get_current_map.o: get_current_map.c.o
+
+.PHONY : get_current_map.o
+
+# target to build an object file
+get_current_map.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_current_map.c.o
+.PHONY : get_current_map.c.o
+
+get_current_map.i: get_current_map.c.i
+
+.PHONY : get_current_map.i
+
+# target to preprocess a source file
+get_current_map.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_current_map.c.i
+.PHONY : get_current_map.c.i
+
+get_current_map.s: get_current_map.c.s
+
+.PHONY : get_current_map.s
+
+# target to generate assembly for a file
+get_current_map.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_current_map.c.s
+.PHONY : get_current_map.c.s
 
 get_next_line/get_next_line.o: get_next_line/get_next_line.c.o
 
@@ -241,9 +268,12 @@ help:
 	@echo "... filler_mvukolov"
 	@echo "... ft_printf"
 	@echo "... libft"
-	@echo "... get_next_line/get_current_map.o"
-	@echo "... get_next_line/get_current_map.i"
-	@echo "... get_next_line/get_current_map.s"
+	@echo "... can_place.o"
+	@echo "... can_place.i"
+	@echo "... can_place.s"
+	@echo "... get_current_map.o"
+	@echo "... get_current_map.i"
+	@echo "... get_current_map.s"
 	@echo "... get_next_line/get_next_line.o"
 	@echo "... get_next_line/get_next_line.i"
 	@echo "... get_next_line/get_next_line.s"

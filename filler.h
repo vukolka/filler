@@ -4,7 +4,12 @@
 typedef struct      s_settings
 {
     char            **map;
-    char            piece;
-};
+    char            player;
+    int             rows;
+    int             cols;
+    char            **piece;
+}                   t_settings;
 
-#endif //FILLER_MVUKOLOV_FILLER_H
+t_settings          state;
+void                get_current_map();
+#endif

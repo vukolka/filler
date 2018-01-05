@@ -1,4 +1,4 @@
-$$$ exec p2 : [../cmake-build-debug/filler_mvukolov]
+$$$ exec p1 : [../cmake-build-debug/filler_mvukolov]
 Plateau 15 17:
     01234567890123456
 000 .................
@@ -19,4 +19,3 @@ Plateau 15 17:
 Piece 2 3:
 .**
 ...
-wtf?

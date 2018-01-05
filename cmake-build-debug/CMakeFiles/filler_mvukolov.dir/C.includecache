@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../ft_printf/ft_printf/ft_printf.h
+stdarg.h
+-
+stdio.h
+-
+libft.h
+../ft_printf/ft_printf/libft.h
+
 ../ft_printf/libftprintf/libft.h
 string.h
 -
@@ -29,6 +37,18 @@ stdlib.h
 -
 string.h
 -
+
+/Users/mvukolov/Documents/filler/filler.h
+
+/Users/mvukolov/Documents/filler/get_current_map.c
+libftprintf/libft.h
+-
+fcntl.h
+-
+get_next_line.h
+-
+filler.h
+/Users/mvukolov/Documents/filler/filler.h
 
 /Users/mvukolov/Documents/filler/get_next_line/get_next_line.c
 get_next_line.h
@@ -61,4 +81,8 @@ get_next_line.h
 -
 libftprintf/libft.h
 -
+ft_printf/ft_printf.h
+-
+../filler.h
+/Users/mvukolov/Documents/filler/filler.h
 

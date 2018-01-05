@@ -184,6 +184,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mvukolov/Documents/filler/can_place.c">
+			<Option target="filler_mvukolov"/>
+		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/filler/filler.h">
 			<Option target="filler_mvukolov"/>
 		</Unit>
@@ -442,7 +445,7 @@
 		<Unit filename="/Users/mvukolov/Documents/filler/ft_printf/libftprintf/libft.h">
 			<Option target="libft"/>
 		</Unit>
-		<Unit filename="/Users/mvukolov/Documents/filler/get_next_line/get_current_map.c">
+		<Unit filename="/Users/mvukolov/Documents/filler/get_current_map.c">
 			<Option target="filler_mvukolov"/>
 		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/filler/get_next_line/get_next_line.c">

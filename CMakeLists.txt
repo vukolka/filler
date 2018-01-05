@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 set(SOURCE_FILES
         srcs/filler.c
-        get_next_line/get_next_line.c get_next_line/get_current_map.c filler.h)
+        get_next_line/get_next_line.c get_current_map.c filler.h can_place.c)
 include_directories(get_next_line)
 
 include_directories(ft_printf)
@@ -16,4 +16,4 @@ add_subdirectory(ft_printf)
 
 add_executable(filler_mvukolov ${SOURCE_FILES})
 
-target_link_libraries(filler_mvukolov libft)
+target_link_libraries(filler_mvukolov libft ft_printf)
