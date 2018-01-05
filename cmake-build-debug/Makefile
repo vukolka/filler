@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named filler
+# Target rules for targets named filler_mvukolov
 
 # Build rule for target.
-filler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 filler
-.PHONY : filler
+filler_mvukolov: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filler_mvukolov
+.PHONY : filler_mvukolov
 
 # fast build rule for target.
-filler/fast:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/build
-.PHONY : filler/fast
+filler_mvukolov/fast:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/build
+.PHONY : filler_mvukolov/fast
 
 #=============================================================================
 # Target rules for targets named ft_printf
@@ -149,13 +149,40 @@ libft/fast:
 	$(MAKE) -f ft_printf/libftprintf/CMakeFiles/libft.dir/build.make ft_printf/libftprintf/CMakeFiles/libft.dir/build
 .PHONY : libft/fast
 
+get_next_line/get_current_map.o: get_next_line/get_current_map.c.o
+
+.PHONY : get_next_line/get_current_map.o
+
+# target to build an object file
+get_next_line/get_current_map.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_current_map.c.o
+.PHONY : get_next_line/get_current_map.c.o
+
+get_next_line/get_current_map.i: get_next_line/get_current_map.c.i
+
+.PHONY : get_next_line/get_current_map.i
+
+# target to preprocess a source file
+get_next_line/get_current_map.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_current_map.c.i
+.PHONY : get_next_line/get_current_map.c.i
+
+get_next_line/get_current_map.s: get_next_line/get_current_map.c.s
+
+.PHONY : get_next_line/get_current_map.s
+
+# target to generate assembly for a file
+get_next_line/get_current_map.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_current_map.c.s
+.PHONY : get_next_line/get_current_map.c.s
+
 get_next_line/get_next_line.o: get_next_line/get_next_line.c.o
 
 .PHONY : get_next_line/get_next_line.o
 
 # target to build an object file
 get_next_line/get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/get_next_line/get_next_line.c.o
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o
 .PHONY : get_next_line/get_next_line.c.o
 
 get_next_line/get_next_line.i: get_next_line/get_next_line.c.i
@@ -164,7 +191,7 @@ get_next_line/get_next_line.i: get_next_line/get_next_line.c.i
 
 # target to preprocess a source file
 get_next_line/get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/get_next_line/get_next_line.c.i
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.i
 .PHONY : get_next_line/get_next_line.c.i
 
 get_next_line/get_next_line.s: get_next_line/get_next_line.c.s
@@ -173,7 +200,7 @@ get_next_line/get_next_line.s: get_next_line/get_next_line.c.s
 
 # target to generate assembly for a file
 get_next_line/get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/get_next_line/get_next_line.c.s
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s
 .PHONY : get_next_line/get_next_line.c.s
 
 srcs/filler.o: srcs/filler.c.o
@@ -182,7 +209,7 @@ srcs/filler.o: srcs/filler.c.o
 
 # target to build an object file
 srcs/filler.c.o:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/srcs/filler.c.o
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o
 .PHONY : srcs/filler.c.o
 
 srcs/filler.i: srcs/filler.c.i
@@ -191,7 +218,7 @@ srcs/filler.i: srcs/filler.c.i
 
 # target to preprocess a source file
 srcs/filler.c.i:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/srcs/filler.c.i
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/filler.c.i
 .PHONY : srcs/filler.c.i
 
 srcs/filler.s: srcs/filler.c.s
@@ -200,7 +227,7 @@ srcs/filler.s: srcs/filler.c.s
 
 # target to generate assembly for a file
 srcs/filler.c.s:
-	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/srcs/filler.c.s
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/filler.c.s
 .PHONY : srcs/filler.c.s
 
 # Help Target
@@ -211,9 +238,12 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... filler"
+	@echo "... filler_mvukolov"
 	@echo "... ft_printf"
 	@echo "... libft"
+	@echo "... get_next_line/get_current_map.o"
+	@echo "... get_next_line/get_current_map.i"
+	@echo "... get_next_line/get_current_map.s"
 	@echo "... get_next_line/get_next_line.o"
 	@echo "... get_next_line/get_next_line.i"
 	@echo "... get_next_line/get_next_line.s"
