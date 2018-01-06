@@ -10,20 +10,31 @@ extern t_settings  state;
 int		main()
 {
     int     i;
+	int		j;
+	int		*res;
 
+	j = 0;
     i = 0;
     get_current_map();
     while (state.map[i])
     {
-        ft_printf("%s\n", state.map[i]);
+		while (state.map[i][j])
+		{
+			if ((res = can_place(i, j)))
+			{
+				printf("%d %d\n", res[0], res[1]);
+				return (0);
+			}
+			j++;
+		}
+		j = 0;
         i++;
     }
-    i = 0;
-    while (state.piece[i])
-    {
-        ft_printf("%s\n", state.piece[i]);
-        i++;
-    }
-    ft_printf("player shape = %c\n", state.player);
+	i = 0;
+	while (state.piece[i])
+	{
+		ft_printf("%s\n", state.piece[i]);
+		i++;
+	}
     return (0);
 }

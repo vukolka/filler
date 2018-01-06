@@ -12,4 +12,6 @@ typedef struct      s_settings
 
 t_settings          state;
 void                get_current_map();
+void	get_corners(char **piece, int *x, int *y);
+int 	*can_place(int i, int j);
 #endif

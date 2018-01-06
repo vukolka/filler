@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mvukolov/Documents/filler/can_place.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/can_place.c.o"
-  "/Users/mvukolov/Documents/filler/get_current_map.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/get_current_map.c.o"
-  "/Users/mvukolov/Documents/filler/get_next_line/get_next_line.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o"
-  "/Users/mvukolov/Documents/filler/srcs/filler.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o"
+  "/home/vukolov/Documents/unit/filler/get_next_line/get_next_line.c" "/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o"
+  "/home/vukolov/Documents/unit/filler/srcs/can_place.c" "/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o"
+  "/home/vukolov/Documents/unit/filler/srcs/filler.c" "/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o"
+  "/home/vukolov/Documents/unit/filler/srcs/get_current_map.c" "/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o"
+  "/home/vukolov/Documents/unit/filler/srcs/parce_piece.c" "/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
@@ -20,8 +21,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake"
-  "/Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/DependInfo.cmake"
+  "/home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake"
+  "/home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

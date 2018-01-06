@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mvukolov/Documents/filler
+CMAKE_SOURCE_DIR = /home/vukolov/Documents/unit/filler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mvukolov/Documents/filler/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/filler/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include ft_printf/libftprintf/CMakeFiles/libft.dir/depend.make
@@ -59,16 +59,16 @@ include ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o: ../ft_printf/libftprintf/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_atoi.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_atoi.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_atoi.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_atoi.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_atoi.c > CMakeFiles/libft.dir/ft_atoi.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_atoi.c > CMakeFiles/libft.dir/ft_atoi.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_atoi.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_atoi.c -o CMakeFiles/libft.dir/ft_atoi.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_atoi.c -o CMakeFiles/libft.dir/ft_atoi.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o.requires:
 
@@ -83,16 +83,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o.provides.build: ft_printf
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o: ../ft_printf/libftprintf/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_bzero.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_bzero.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_bzero.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_bzero.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_bzero.c > CMakeFiles/libft.dir/ft_bzero.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_bzero.c > CMakeFiles/libft.dir/ft_bzero.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_bzero.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_bzero.c -o CMakeFiles/libft.dir/ft_bzero.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_bzero.c -o CMakeFiles/libft.dir/ft_bzero.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o.requires:
 
@@ -107,16 +107,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o.provides.build: ft_print
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o: ../ft_printf/libftprintf/ft_dict_add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_dict_add.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_dict_add.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_add.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_dict_add.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_add.c > CMakeFiles/libft.dir/ft_dict_add.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_add.c > CMakeFiles/libft.dir/ft_dict_add.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_dict_add.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_add.c -o CMakeFiles/libft.dir/ft_dict_add.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_add.c -o CMakeFiles/libft.dir/ft_dict_add.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o.requires:
 
@@ -131,16 +131,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o.provides.build: ft_pr
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o: ../ft_printf/libftprintf/ft_dict_create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_dict_create.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_create.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_dict_create.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_create.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_dict_create.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_create.c > CMakeFiles/libft.dir/ft_dict_create.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_create.c > CMakeFiles/libft.dir/ft_dict_create.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_dict_create.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_create.c -o CMakeFiles/libft.dir/ft_dict_create.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_create.c -o CMakeFiles/libft.dir/ft_dict_create.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o.requires:
 
@@ -155,16 +155,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o.provides.build: ft
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o: ../ft_printf/libftprintf/ft_dict_get.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_dict_get.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_get.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_dict_get.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_get.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_dict_get.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_get.c > CMakeFiles/libft.dir/ft_dict_get.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_get.c > CMakeFiles/libft.dir/ft_dict_get.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_dict_get.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_dict_get.c -o CMakeFiles/libft.dir/ft_dict_get.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_dict_get.c -o CMakeFiles/libft.dir/ft_dict_get.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o.requires:
 
@@ -179,16 +179,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o.provides.build: ft_pr
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o: ../ft_printf/libftprintf/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalnum.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalnum.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isalnum.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isalnum.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isalnum.c > CMakeFiles/libft.dir/ft_isalnum.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isalnum.c > CMakeFiles/libft.dir/ft_isalnum.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isalnum.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isalnum.c -o CMakeFiles/libft.dir/ft_isalnum.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isalnum.c -o CMakeFiles/libft.dir/ft_isalnum.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o.requires:
 
@@ -203,16 +203,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o: ../ft_printf/libftprintf/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalpha.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isalpha.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isalpha.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isalpha.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isalpha.c > CMakeFiles/libft.dir/ft_isalpha.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isalpha.c > CMakeFiles/libft.dir/ft_isalpha.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isalpha.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isalpha.c -o CMakeFiles/libft.dir/ft_isalpha.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isalpha.c -o CMakeFiles/libft.dir/ft_isalpha.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o.requires:
 
@@ -227,16 +227,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o: ../ft_printf/libftprintf/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isascii.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isascii.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isascii.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isascii.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isascii.c > CMakeFiles/libft.dir/ft_isascii.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isascii.c > CMakeFiles/libft.dir/ft_isascii.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isascii.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isascii.c -o CMakeFiles/libft.dir/ft_isascii.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isascii.c -o CMakeFiles/libft.dir/ft_isascii.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o.requires:
 
@@ -251,16 +251,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o: ../ft_printf/libftprintf/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isdigit.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isdigit.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isdigit.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isdigit.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isdigit.c > CMakeFiles/libft.dir/ft_isdigit.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isdigit.c > CMakeFiles/libft.dir/ft_isdigit.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isdigit.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isdigit.c -o CMakeFiles/libft.dir/ft_isdigit.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isdigit.c -o CMakeFiles/libft.dir/ft_isdigit.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o.requires:
 
@@ -275,16 +275,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o: ../ft_printf/libftprintf/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isprint.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isprint.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isprint.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isprint.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isprint.c > CMakeFiles/libft.dir/ft_isprint.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isprint.c > CMakeFiles/libft.dir/ft_isprint.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isprint.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isprint.c -o CMakeFiles/libft.dir/ft_isprint.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isprint.c -o CMakeFiles/libft.dir/ft_isprint.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o.requires:
 
@@ -299,16 +299,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o: ../ft_printf/libftprintf/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isspace.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_isspace.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isspace.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_isspace.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isspace.c > CMakeFiles/libft.dir/ft_isspace.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isspace.c > CMakeFiles/libft.dir/ft_isspace.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_isspace.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_isspace.c -o CMakeFiles/libft.dir/ft_isspace.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_isspace.c -o CMakeFiles/libft.dir/ft_isspace.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o.requires:
 
@@ -323,16 +323,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o: ../ft_printf/libftprintf/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_itoa.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_itoa.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_itoa.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_itoa.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_itoa.c > CMakeFiles/libft.dir/ft_itoa.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_itoa.c > CMakeFiles/libft.dir/ft_itoa.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_itoa.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_itoa.c -o CMakeFiles/libft.dir/ft_itoa.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_itoa.c -o CMakeFiles/libft.dir/ft_itoa.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o.requires:
 
@@ -347,16 +347,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o.provides.build: ft_printf
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o: ../ft_printf/libftprintf/ft_itoa_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_itoa_base.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_itoa_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_itoa_base.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_itoa_base.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_itoa_base.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_itoa_base.c > CMakeFiles/libft.dir/ft_itoa_base.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_itoa_base.c > CMakeFiles/libft.dir/ft_itoa_base.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_itoa_base.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_itoa_base.c -o CMakeFiles/libft.dir/ft_itoa_base.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_itoa_base.c -o CMakeFiles/libft.dir/ft_itoa_base.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o.requires:
 
@@ -371,16 +371,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o.provides.build: ft_p
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o: ../ft_printf/libftprintf/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstadd.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstadd.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstadd.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_lstadd.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstadd.c > CMakeFiles/libft.dir/ft_lstadd.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstadd.c > CMakeFiles/libft.dir/ft_lstadd.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_lstadd.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstadd.c -o CMakeFiles/libft.dir/ft_lstadd.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstadd.c -o CMakeFiles/libft.dir/ft_lstadd.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o.requires:
 
@@ -395,16 +395,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o: ../ft_printf/libftprintf/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstdel.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstdel.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstdel.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_lstdel.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstdel.c > CMakeFiles/libft.dir/ft_lstdel.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstdel.c > CMakeFiles/libft.dir/ft_lstdel.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_lstdel.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstdel.c -o CMakeFiles/libft.dir/ft_lstdel.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstdel.c -o CMakeFiles/libft.dir/ft_lstdel.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o.requires:
 
@@ -419,16 +419,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o: ../ft_printf/libftprintf/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstdelone.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstdelone.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstdelone.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_lstdelone.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstdelone.c > CMakeFiles/libft.dir/ft_lstdelone.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstdelone.c > CMakeFiles/libft.dir/ft_lstdelone.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_lstdelone.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstdelone.c -o CMakeFiles/libft.dir/ft_lstdelone.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstdelone.c -o CMakeFiles/libft.dir/ft_lstdelone.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o.requires:
 
@@ -443,16 +443,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o.provides.build: ft_p
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o: ../ft_printf/libftprintf/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstiter.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstiter.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstiter.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_lstiter.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstiter.c > CMakeFiles/libft.dir/ft_lstiter.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstiter.c > CMakeFiles/libft.dir/ft_lstiter.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_lstiter.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstiter.c -o CMakeFiles/libft.dir/ft_lstiter.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstiter.c -o CMakeFiles/libft.dir/ft_lstiter.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o.requires:
 
@@ -467,16 +467,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o: ../ft_printf/libftprintf/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstmap.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstmap.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstmap.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_lstmap.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstmap.c > CMakeFiles/libft.dir/ft_lstmap.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstmap.c > CMakeFiles/libft.dir/ft_lstmap.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_lstmap.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstmap.c -o CMakeFiles/libft.dir/ft_lstmap.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstmap.c -o CMakeFiles/libft.dir/ft_lstmap.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o.requires:
 
@@ -491,16 +491,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o: ../ft_printf/libftprintf/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstnew.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_lstnew.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstnew.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_lstnew.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstnew.c > CMakeFiles/libft.dir/ft_lstnew.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstnew.c > CMakeFiles/libft.dir/ft_lstnew.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_lstnew.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_lstnew.c -o CMakeFiles/libft.dir/ft_lstnew.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_lstnew.c -o CMakeFiles/libft.dir/ft_lstnew.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o.requires:
 
@@ -515,16 +515,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o: ../ft_printf/libftprintf/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memalloc.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memalloc.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memalloc.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memalloc.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memalloc.c > CMakeFiles/libft.dir/ft_memalloc.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memalloc.c > CMakeFiles/libft.dir/ft_memalloc.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memalloc.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memalloc.c -o CMakeFiles/libft.dir/ft_memalloc.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memalloc.c -o CMakeFiles/libft.dir/ft_memalloc.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o.requires:
 
@@ -539,16 +539,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o.provides.build: ft_pr
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o: ../ft_printf/libftprintf/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memccpy.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memccpy.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memccpy.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memccpy.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memccpy.c > CMakeFiles/libft.dir/ft_memccpy.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memccpy.c > CMakeFiles/libft.dir/ft_memccpy.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memccpy.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memccpy.c -o CMakeFiles/libft.dir/ft_memccpy.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memccpy.c -o CMakeFiles/libft.dir/ft_memccpy.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o.requires:
 
@@ -563,16 +563,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o: ../ft_printf/libftprintf/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memchr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memchr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memchr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memchr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memchr.c > CMakeFiles/libft.dir/ft_memchr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memchr.c > CMakeFiles/libft.dir/ft_memchr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memchr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memchr.c -o CMakeFiles/libft.dir/ft_memchr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memchr.c -o CMakeFiles/libft.dir/ft_memchr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o.requires:
 
@@ -587,16 +587,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o: ../ft_printf/libftprintf/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcmp.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcmp.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memcmp.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memcmp.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memcmp.c > CMakeFiles/libft.dir/ft_memcmp.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memcmp.c > CMakeFiles/libft.dir/ft_memcmp.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memcmp.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memcmp.c -o CMakeFiles/libft.dir/ft_memcmp.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memcmp.c -o CMakeFiles/libft.dir/ft_memcmp.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o.requires:
 
@@ -611,16 +611,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o: ../ft_printf/libftprintf/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcpy.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memcpy.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memcpy.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memcpy.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memcpy.c > CMakeFiles/libft.dir/ft_memcpy.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memcpy.c > CMakeFiles/libft.dir/ft_memcpy.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memcpy.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memcpy.c -o CMakeFiles/libft.dir/ft_memcpy.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memcpy.c -o CMakeFiles/libft.dir/ft_memcpy.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o.requires:
 
@@ -635,16 +635,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o: ../ft_printf/libftprintf/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memdel.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memdel.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memdel.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memdel.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memdel.c > CMakeFiles/libft.dir/ft_memdel.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memdel.c > CMakeFiles/libft.dir/ft_memdel.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memdel.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memdel.c -o CMakeFiles/libft.dir/ft_memdel.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memdel.c -o CMakeFiles/libft.dir/ft_memdel.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o.requires:
 
@@ -659,16 +659,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o: ../ft_printf/libftprintf/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memmove.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memmove.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memmove.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memmove.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memmove.c > CMakeFiles/libft.dir/ft_memmove.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memmove.c > CMakeFiles/libft.dir/ft_memmove.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memmove.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memmove.c -o CMakeFiles/libft.dir/ft_memmove.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memmove.c -o CMakeFiles/libft.dir/ft_memmove.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o.requires:
 
@@ -683,16 +683,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o: ../ft_printf/libftprintf/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memset.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_memset.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memset.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_memset.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memset.c > CMakeFiles/libft.dir/ft_memset.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memset.c > CMakeFiles/libft.dir/ft_memset.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_memset.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_memset.c -o CMakeFiles/libft.dir/ft_memset.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_memset.c -o CMakeFiles/libft.dir/ft_memset.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o.requires:
 
@@ -707,16 +707,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o: ../ft_printf/libftprintf/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putchar.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putchar.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putchar.c > CMakeFiles/libft.dir/ft_putchar.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putchar.c > CMakeFiles/libft.dir/ft_putchar.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putchar.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putchar.c -o CMakeFiles/libft.dir/ft_putchar.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putchar.c -o CMakeFiles/libft.dir/ft_putchar.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o.requires:
 
@@ -731,16 +731,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o: ../ft_printf/libftprintf/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar_fd.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putchar_fd.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putchar_fd.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putchar_fd.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putchar_fd.c > CMakeFiles/libft.dir/ft_putchar_fd.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putchar_fd.c > CMakeFiles/libft.dir/ft_putchar_fd.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putchar_fd.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putchar_fd.c -o CMakeFiles/libft.dir/ft_putchar_fd.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putchar_fd.c -o CMakeFiles/libft.dir/ft_putchar_fd.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o.requires:
 
@@ -755,16 +755,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o.provides.build: ft_
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o: ../ft_printf/libftprintf/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putendl.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putendl.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putendl.c > CMakeFiles/libft.dir/ft_putendl.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putendl.c > CMakeFiles/libft.dir/ft_putendl.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putendl.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putendl.c -o CMakeFiles/libft.dir/ft_putendl.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putendl.c -o CMakeFiles/libft.dir/ft_putendl.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o.requires:
 
@@ -779,16 +779,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o: ../ft_printf/libftprintf/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl_fd.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putendl_fd.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putendl_fd.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putendl_fd.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putendl_fd.c > CMakeFiles/libft.dir/ft_putendl_fd.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putendl_fd.c > CMakeFiles/libft.dir/ft_putendl_fd.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putendl_fd.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putendl_fd.c -o CMakeFiles/libft.dir/ft_putendl_fd.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putendl_fd.c -o CMakeFiles/libft.dir/ft_putendl_fd.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o.requires:
 
@@ -803,16 +803,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o.provides.build: ft_
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o: ../ft_printf/libftprintf/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putnbr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putnbr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putnbr.c > CMakeFiles/libft.dir/ft_putnbr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putnbr.c > CMakeFiles/libft.dir/ft_putnbr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putnbr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putnbr.c -o CMakeFiles/libft.dir/ft_putnbr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putnbr.c -o CMakeFiles/libft.dir/ft_putnbr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o.requires:
 
@@ -827,16 +827,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o: ../ft_printf/libftprintf/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr_fd.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putnbr_fd.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putnbr_fd.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putnbr_fd.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putnbr_fd.c > CMakeFiles/libft.dir/ft_putnbr_fd.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putnbr_fd.c > CMakeFiles/libft.dir/ft_putnbr_fd.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putnbr_fd.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putnbr_fd.c -o CMakeFiles/libft.dir/ft_putnbr_fd.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putnbr_fd.c -o CMakeFiles/libft.dir/ft_putnbr_fd.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o.requires:
 
@@ -851,16 +851,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o.provides.build: ft_p
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o: ../ft_printf/libftprintf/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putstr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putstr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putstr.c > CMakeFiles/libft.dir/ft_putstr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putstr.c > CMakeFiles/libft.dir/ft_putstr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putstr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putstr.c -o CMakeFiles/libft.dir/ft_putstr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putstr.c -o CMakeFiles/libft.dir/ft_putstr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o.requires:
 
@@ -875,16 +875,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o: ../ft_printf/libftprintf/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr_fd.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_putstr_fd.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putstr_fd.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_putstr_fd.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putstr_fd.c > CMakeFiles/libft.dir/ft_putstr_fd.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putstr_fd.c > CMakeFiles/libft.dir/ft_putstr_fd.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_putstr_fd.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_putstr_fd.c -o CMakeFiles/libft.dir/ft_putstr_fd.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_putstr_fd.c -o CMakeFiles/libft.dir/ft_putstr_fd.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o.requires:
 
@@ -899,16 +899,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o.provides.build: ft_p
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o: ../ft_printf/libftprintf/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcat.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcat.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcat.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcat.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcat.c > CMakeFiles/libft.dir/ft_strcat.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcat.c > CMakeFiles/libft.dir/ft_strcat.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcat.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcat.c -o CMakeFiles/libft.dir/ft_strcat.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcat.c -o CMakeFiles/libft.dir/ft_strcat.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o.requires:
 
@@ -923,16 +923,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o: ../ft_printf/libftprintf/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strchr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strchr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strchr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strchr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strchr.c > CMakeFiles/libft.dir/ft_strchr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strchr.c > CMakeFiles/libft.dir/ft_strchr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strchr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strchr.c -o CMakeFiles/libft.dir/ft_strchr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strchr.c -o CMakeFiles/libft.dir/ft_strchr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o.requires:
 
@@ -947,16 +947,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o: ../ft_printf/libftprintf/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strclr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strclr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strclr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strclr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strclr.c > CMakeFiles/libft.dir/ft_strclr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strclr.c > CMakeFiles/libft.dir/ft_strclr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strclr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strclr.c -o CMakeFiles/libft.dir/ft_strclr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strclr.c -o CMakeFiles/libft.dir/ft_strclr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o.requires:
 
@@ -971,16 +971,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o: ../ft_printf/libftprintf/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcmp.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcmp.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcmp.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcmp.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcmp.c > CMakeFiles/libft.dir/ft_strcmp.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcmp.c > CMakeFiles/libft.dir/ft_strcmp.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcmp.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcmp.c -o CMakeFiles/libft.dir/ft_strcmp.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcmp.c -o CMakeFiles/libft.dir/ft_strcmp.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o.requires:
 
@@ -995,16 +995,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o: ../ft_printf/libftprintf/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcpy.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strcpy.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcpy.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strcpy.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcpy.c > CMakeFiles/libft.dir/ft_strcpy.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcpy.c > CMakeFiles/libft.dir/ft_strcpy.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strcpy.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strcpy.c -o CMakeFiles/libft.dir/ft_strcpy.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strcpy.c -o CMakeFiles/libft.dir/ft_strcpy.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o.requires:
 
@@ -1019,16 +1019,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o: ../ft_printf/libftprintf/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdel.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdel.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strdel.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strdel.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strdel.c > CMakeFiles/libft.dir/ft_strdel.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strdel.c > CMakeFiles/libft.dir/ft_strdel.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strdel.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strdel.c -o CMakeFiles/libft.dir/ft_strdel.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strdel.c -o CMakeFiles/libft.dir/ft_strdel.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o.requires:
 
@@ -1043,16 +1043,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o: ../ft_printf/libftprintf/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdup.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strdup.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strdup.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strdup.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strdup.c > CMakeFiles/libft.dir/ft_strdup.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strdup.c > CMakeFiles/libft.dir/ft_strdup.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strdup.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strdup.c -o CMakeFiles/libft.dir/ft_strdup.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strdup.c -o CMakeFiles/libft.dir/ft_strdup.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o.requires:
 
@@ -1067,16 +1067,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o: ../ft_printf/libftprintf/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strequ.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strequ.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strequ.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strequ.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strequ.c > CMakeFiles/libft.dir/ft_strequ.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strequ.c > CMakeFiles/libft.dir/ft_strequ.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strequ.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strequ.c -o CMakeFiles/libft.dir/ft_strequ.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strequ.c -o CMakeFiles/libft.dir/ft_strequ.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o.requires:
 
@@ -1091,16 +1091,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o: ../ft_printf/libftprintf/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striter.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striter.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_striter.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_striter.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_striter.c > CMakeFiles/libft.dir/ft_striter.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_striter.c > CMakeFiles/libft.dir/ft_striter.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_striter.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_striter.c -o CMakeFiles/libft.dir/ft_striter.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_striter.c -o CMakeFiles/libft.dir/ft_striter.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o.requires:
 
@@ -1115,16 +1115,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o: ../ft_printf/libftprintf/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striteri.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_striteri.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_striteri.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_striteri.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_striteri.c > CMakeFiles/libft.dir/ft_striteri.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_striteri.c > CMakeFiles/libft.dir/ft_striteri.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_striteri.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_striteri.c -o CMakeFiles/libft.dir/ft_striteri.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_striteri.c -o CMakeFiles/libft.dir/ft_striteri.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o.requires:
 
@@ -1139,16 +1139,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o.provides.build: ft_pr
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o: ../ft_printf/libftprintf/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strjoin.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strjoin.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strjoin.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strjoin.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strjoin.c > CMakeFiles/libft.dir/ft_strjoin.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strjoin.c > CMakeFiles/libft.dir/ft_strjoin.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strjoin.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strjoin.c -o CMakeFiles/libft.dir/ft_strjoin.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strjoin.c -o CMakeFiles/libft.dir/ft_strjoin.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o.requires:
 
@@ -1163,16 +1163,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o: ../ft_printf/libftprintf/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlcat.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlcat.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strlcat.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strlcat.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strlcat.c > CMakeFiles/libft.dir/ft_strlcat.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strlcat.c > CMakeFiles/libft.dir/ft_strlcat.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strlcat.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strlcat.c -o CMakeFiles/libft.dir/ft_strlcat.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strlcat.c -o CMakeFiles/libft.dir/ft_strlcat.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o.requires:
 
@@ -1187,16 +1187,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o: ../ft_printf/libftprintf/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlen.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strlen.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strlen.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strlen.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strlen.c > CMakeFiles/libft.dir/ft_strlen.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strlen.c > CMakeFiles/libft.dir/ft_strlen.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strlen.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strlen.c -o CMakeFiles/libft.dir/ft_strlen.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strlen.c -o CMakeFiles/libft.dir/ft_strlen.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o.requires:
 
@@ -1211,16 +1211,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o: ../ft_printf/libftprintf/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strmap.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strmap.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strmap.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strmap.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strmap.c > CMakeFiles/libft.dir/ft_strmap.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strmap.c > CMakeFiles/libft.dir/ft_strmap.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strmap.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strmap.c -o CMakeFiles/libft.dir/ft_strmap.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strmap.c -o CMakeFiles/libft.dir/ft_strmap.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o.requires:
 
@@ -1235,16 +1235,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o: ../ft_printf/libftprintf/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strmapi.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strmapi.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strmapi.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strmapi.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strmapi.c > CMakeFiles/libft.dir/ft_strmapi.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strmapi.c > CMakeFiles/libft.dir/ft_strmapi.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strmapi.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strmapi.c -o CMakeFiles/libft.dir/ft_strmapi.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strmapi.c -o CMakeFiles/libft.dir/ft_strmapi.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o.requires:
 
@@ -1259,16 +1259,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o: ../ft_printf/libftprintf/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncat.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncat.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncat.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncat.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncat.c > CMakeFiles/libft.dir/ft_strncat.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncat.c > CMakeFiles/libft.dir/ft_strncat.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncat.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncat.c -o CMakeFiles/libft.dir/ft_strncat.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncat.c -o CMakeFiles/libft.dir/ft_strncat.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o.requires:
 
@@ -1283,16 +1283,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o: ../ft_printf/libftprintf/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncmp.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncmp.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncmp.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncmp.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncmp.c > CMakeFiles/libft.dir/ft_strncmp.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncmp.c > CMakeFiles/libft.dir/ft_strncmp.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncmp.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncmp.c -o CMakeFiles/libft.dir/ft_strncmp.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncmp.c -o CMakeFiles/libft.dir/ft_strncmp.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o.requires:
 
@@ -1307,16 +1307,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o: ../ft_printf/libftprintf/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncpy.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strncpy.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncpy.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strncpy.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncpy.c > CMakeFiles/libft.dir/ft_strncpy.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncpy.c > CMakeFiles/libft.dir/ft_strncpy.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strncpy.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strncpy.c -o CMakeFiles/libft.dir/ft_strncpy.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strncpy.c -o CMakeFiles/libft.dir/ft_strncpy.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o.requires:
 
@@ -1331,16 +1331,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o: ../ft_printf/libftprintf/ft_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strndup.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strndup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strndup.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strndup.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strndup.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strndup.c > CMakeFiles/libft.dir/ft_strndup.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strndup.c > CMakeFiles/libft.dir/ft_strndup.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strndup.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strndup.c -o CMakeFiles/libft.dir/ft_strndup.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strndup.c -o CMakeFiles/libft.dir/ft_strndup.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o.requires:
 
@@ -1355,16 +1355,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o: ../ft_printf/libftprintf/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnequ.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnequ.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnequ.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strnequ.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnequ.c > CMakeFiles/libft.dir/ft_strnequ.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnequ.c > CMakeFiles/libft.dir/ft_strnequ.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strnequ.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnequ.c -o CMakeFiles/libft.dir/ft_strnequ.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnequ.c -o CMakeFiles/libft.dir/ft_strnequ.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o.requires:
 
@@ -1379,16 +1379,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o: ../ft_printf/libftprintf/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnew.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnew.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnew.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strnew.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnew.c > CMakeFiles/libft.dir/ft_strnew.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnew.c > CMakeFiles/libft.dir/ft_strnew.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strnew.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnew.c -o CMakeFiles/libft.dir/ft_strnew.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnew.c -o CMakeFiles/libft.dir/ft_strnew.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o.requires:
 
@@ -1403,16 +1403,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o: ../ft_printf/libftprintf/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnstr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strnstr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnstr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strnstr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnstr.c > CMakeFiles/libft.dir/ft_strnstr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnstr.c > CMakeFiles/libft.dir/ft_strnstr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strnstr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strnstr.c -o CMakeFiles/libft.dir/ft_strnstr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strnstr.c -o CMakeFiles/libft.dir/ft_strnstr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o.requires:
 
@@ -1427,16 +1427,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o: ../ft_printf/libftprintf/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strrchr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strrchr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strrchr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strrchr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strrchr.c > CMakeFiles/libft.dir/ft_strrchr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strrchr.c > CMakeFiles/libft.dir/ft_strrchr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strrchr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strrchr.c -o CMakeFiles/libft.dir/ft_strrchr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strrchr.c -o CMakeFiles/libft.dir/ft_strrchr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o.requires:
 
@@ -1451,16 +1451,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o: ../ft_printf/libftprintf/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strsplit.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strsplit.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strsplit.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strsplit.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strsplit.c > CMakeFiles/libft.dir/ft_strsplit.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strsplit.c > CMakeFiles/libft.dir/ft_strsplit.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strsplit.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strsplit.c -o CMakeFiles/libft.dir/ft_strsplit.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strsplit.c -o CMakeFiles/libft.dir/ft_strsplit.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o.requires:
 
@@ -1475,16 +1475,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o.provides.build: ft_pr
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o: ../ft_printf/libftprintf/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strstr.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strstr.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strstr.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strstr.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strstr.c > CMakeFiles/libft.dir/ft_strstr.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strstr.c > CMakeFiles/libft.dir/ft_strstr.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strstr.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strstr.c -o CMakeFiles/libft.dir/ft_strstr.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strstr.c -o CMakeFiles/libft.dir/ft_strstr.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o.requires:
 
@@ -1499,16 +1499,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o: ../ft_printf/libftprintf/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strsub.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strsub.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strsub.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strsub.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strsub.c > CMakeFiles/libft.dir/ft_strsub.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strsub.c > CMakeFiles/libft.dir/ft_strsub.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strsub.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strsub.c -o CMakeFiles/libft.dir/ft_strsub.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strsub.c -o CMakeFiles/libft.dir/ft_strsub.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o.requires:
 
@@ -1523,16 +1523,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o.provides.build: ft_prin
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o: ../ft_printf/libftprintf/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strtrim.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strtrim.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strtrim.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strtrim.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strtrim.c > CMakeFiles/libft.dir/ft_strtrim.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strtrim.c > CMakeFiles/libft.dir/ft_strtrim.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strtrim.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strtrim.c -o CMakeFiles/libft.dir/ft_strtrim.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strtrim.c -o CMakeFiles/libft.dir/ft_strtrim.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o.requires:
 
@@ -1547,16 +1547,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o: ../ft_printf/libftprintf/ft_strupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strupper.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_strupper.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strupper.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_strupper.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strupper.c > CMakeFiles/libft.dir/ft_strupper.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strupper.c > CMakeFiles/libft.dir/ft_strupper.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_strupper.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_strupper.c -o CMakeFiles/libft.dir/ft_strupper.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_strupper.c -o CMakeFiles/libft.dir/ft_strupper.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o.requires:
 
@@ -1571,16 +1571,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o.provides.build: ft_pr
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o: ../ft_printf/libftprintf/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_tolower.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_tolower.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_tolower.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_tolower.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_tolower.c > CMakeFiles/libft.dir/ft_tolower.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_tolower.c > CMakeFiles/libft.dir/ft_tolower.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_tolower.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_tolower.c -o CMakeFiles/libft.dir/ft_tolower.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_tolower.c -o CMakeFiles/libft.dir/ft_tolower.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o.requires:
 
@@ -1595,16 +1595,16 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o.provides.build: ft_pri
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o: ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o: ../ft_printf/libftprintf/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_toupper.c.o   -c /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.dir/ft_toupper.c.o   -c /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_toupper.c
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/ft_toupper.c.i"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_toupper.c > CMakeFiles/libft.dir/ft_toupper.c.i
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_toupper.c > CMakeFiles/libft.dir/ft_toupper.c.i
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/ft_toupper.c.s"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/ft_printf/libftprintf/ft_toupper.c -o CMakeFiles/libft.dir/ft_toupper.c.s
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/ft_printf/libftprintf/ft_toupper.c -o CMakeFiles/libft.dir/ft_toupper.c.s
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o.requires:
 
@@ -1755,9 +1755,9 @@ ft_printf/libftprintf/liblibft.a: ft_printf/libftprintf/CMakeFiles/libft.dir/ft_
 ft_printf/libftprintf/liblibft.a: ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o
 ft_printf/libftprintf/liblibft.a: ft_printf/libftprintf/CMakeFiles/libft.dir/build.make
 ft_printf/libftprintf/liblibft.a: ft_printf/libftprintf/CMakeFiles/libft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking C static library liblibft.a"
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean_target.cmake
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking C static library liblibft.a"
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean_target.cmake
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ft_printf/libftprintf/CMakeFiles/libft.dir/build: ft_printf/libftprintf/liblibft.a
@@ -1833,10 +1833,10 @@ ft_printf/libftprintf/CMakeFiles/libft.dir/requires: ft_printf/libftprintf/CMake
 .PHONY : ft_printf/libftprintf/CMakeFiles/libft.dir/requires
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/clean:
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean.cmake
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf && $(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean.cmake
 .PHONY : ft_printf/libftprintf/CMakeFiles/libft.dir/clean
 
 ft_printf/libftprintf/CMakeFiles/libft.dir/depend:
-	cd /Users/mvukolov/Documents/filler/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mvukolov/Documents/filler /Users/mvukolov/Documents/filler/ft_printf/libftprintf /Users/mvukolov/Documents/filler/cmake-build-debug /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf /Users/mvukolov/Documents/filler/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vukolov/Documents/unit/filler/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vukolov/Documents/unit/filler /home/vukolov/Documents/unit/filler/ft_printf/libftprintf /home/vukolov/Documents/unit/filler/cmake-build-debug /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf /home/vukolov/Documents/unit/filler/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ft_printf/libftprintf/CMakeFiles/libft.dir/depend
 

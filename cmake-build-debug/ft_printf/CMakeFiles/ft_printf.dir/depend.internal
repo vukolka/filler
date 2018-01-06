@@ -3,73 +3,73 @@
 
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/apply_flags.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/apply_flags.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/apply_flags2.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/apply_flags2.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/apply_format.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/apply_format.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_conncat.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_conncat.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_c.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_c.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_d.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_d.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_o.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_o.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_p.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_p.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_percent.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_percent.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_s.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_s.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_u.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_u.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_format_x.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_format_x.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.c
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/get_func_dict.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/get_func_dict.c
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/get_modificator.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/get_modificator.c
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/get_right_format.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/get_right_format.c
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/parse_modifiers.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/parse_modifiers.c
 ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
  ../ft_printf/libftprintf/libft.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/ft_printf.h
- /Users/mvukolov/Documents/filler/ft_printf/ft_printf/proccess_format.c
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/ft_printf.h
+ /home/vukolov/Documents/unit/filler/ft_printf/ft_printf/proccess_format.c

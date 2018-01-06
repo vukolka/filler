@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mvukolov/Documents/filler
+CMAKE_SOURCE_DIR = /home/vukolov/Documents/unit/filler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mvukolov/Documents/filler/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/filler/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/mvukolov/Documents/filler/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles /Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles /home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,60 +149,6 @@ libft/fast:
 	$(MAKE) -f ft_printf/libftprintf/CMakeFiles/libft.dir/build.make ft_printf/libftprintf/CMakeFiles/libft.dir/build
 .PHONY : libft/fast
 
-can_place.o: can_place.c.o
-
-.PHONY : can_place.o
-
-# target to build an object file
-can_place.c.o:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/can_place.c.o
-.PHONY : can_place.c.o
-
-can_place.i: can_place.c.i
-
-.PHONY : can_place.i
-
-# target to preprocess a source file
-can_place.c.i:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/can_place.c.i
-.PHONY : can_place.c.i
-
-can_place.s: can_place.c.s
-
-.PHONY : can_place.s
-
-# target to generate assembly for a file
-can_place.c.s:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/can_place.c.s
-.PHONY : can_place.c.s
-
-get_current_map.o: get_current_map.c.o
-
-.PHONY : get_current_map.o
-
-# target to build an object file
-get_current_map.c.o:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_current_map.c.o
-.PHONY : get_current_map.c.o
-
-get_current_map.i: get_current_map.c.i
-
-.PHONY : get_current_map.i
-
-# target to preprocess a source file
-get_current_map.c.i:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_current_map.c.i
-.PHONY : get_current_map.c.i
-
-get_current_map.s: get_current_map.c.s
-
-.PHONY : get_current_map.s
-
-# target to generate assembly for a file
-get_current_map.c.s:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_current_map.c.s
-.PHONY : get_current_map.c.s
-
 get_next_line/get_next_line.o: get_next_line/get_next_line.c.o
 
 .PHONY : get_next_line/get_next_line.o
@@ -229,6 +175,33 @@ get_next_line/get_next_line.s: get_next_line/get_next_line.c.s
 get_next_line/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s
 .PHONY : get_next_line/get_next_line.c.s
+
+srcs/can_place.o: srcs/can_place.c.o
+
+.PHONY : srcs/can_place.o
+
+# target to build an object file
+srcs/can_place.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o
+.PHONY : srcs/can_place.c.o
+
+srcs/can_place.i: srcs/can_place.c.i
+
+.PHONY : srcs/can_place.i
+
+# target to preprocess a source file
+srcs/can_place.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.i
+.PHONY : srcs/can_place.c.i
+
+srcs/can_place.s: srcs/can_place.c.s
+
+.PHONY : srcs/can_place.s
+
+# target to generate assembly for a file
+srcs/can_place.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.s
+.PHONY : srcs/can_place.c.s
 
 srcs/filler.o: srcs/filler.c.o
 
@@ -257,6 +230,60 @@ srcs/filler.c.s:
 	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/filler.c.s
 .PHONY : srcs/filler.c.s
 
+srcs/get_current_map.o: srcs/get_current_map.c.o
+
+.PHONY : srcs/get_current_map.o
+
+# target to build an object file
+srcs/get_current_map.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o
+.PHONY : srcs/get_current_map.c.o
+
+srcs/get_current_map.i: srcs/get_current_map.c.i
+
+.PHONY : srcs/get_current_map.i
+
+# target to preprocess a source file
+srcs/get_current_map.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.i
+.PHONY : srcs/get_current_map.c.i
+
+srcs/get_current_map.s: srcs/get_current_map.c.s
+
+.PHONY : srcs/get_current_map.s
+
+# target to generate assembly for a file
+srcs/get_current_map.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.s
+.PHONY : srcs/get_current_map.c.s
+
+srcs/parce_piece.o: srcs/parce_piece.c.o
+
+.PHONY : srcs/parce_piece.o
+
+# target to build an object file
+srcs/parce_piece.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o
+.PHONY : srcs/parce_piece.c.o
+
+srcs/parce_piece.i: srcs/parce_piece.c.i
+
+.PHONY : srcs/parce_piece.i
+
+# target to preprocess a source file
+srcs/parce_piece.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i
+.PHONY : srcs/parce_piece.c.i
+
+srcs/parce_piece.s: srcs/parce_piece.c.s
+
+.PHONY : srcs/parce_piece.s
+
+# target to generate assembly for a file
+srcs/parce_piece.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s
+.PHONY : srcs/parce_piece.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -268,18 +295,21 @@ help:
 	@echo "... filler_mvukolov"
 	@echo "... ft_printf"
 	@echo "... libft"
-	@echo "... can_place.o"
-	@echo "... can_place.i"
-	@echo "... can_place.s"
-	@echo "... get_current_map.o"
-	@echo "... get_current_map.i"
-	@echo "... get_current_map.s"
 	@echo "... get_next_line/get_next_line.o"
 	@echo "... get_next_line/get_next_line.i"
 	@echo "... get_next_line/get_next_line.s"
+	@echo "... srcs/can_place.o"
+	@echo "... srcs/can_place.i"
+	@echo "... srcs/can_place.s"
 	@echo "... srcs/filler.o"
 	@echo "... srcs/filler.i"
 	@echo "... srcs/filler.s"
+	@echo "... srcs/get_current_map.o"
+	@echo "... srcs/get_current_map.i"
+	@echo "... srcs/get_current_map.s"
+	@echo "... srcs/parce_piece.o"
+	@echo "... srcs/parce_piece.i"
+	@echo "... srcs/parce_piece.s"
 .PHONY : help
 
 

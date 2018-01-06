@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/filler.dir/srcs/filler.c.o CMakeFiles/filler.dir/get_next_line/get_next_line.c.o  -o filler ft_printf/libftprintf/liblibft.a 
