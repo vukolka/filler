@@ -3,8 +3,8 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="filler_mvukolov" targetName="ft_printf" />
-      <config projectName="filler_mvukolov" targetName="filler_mvukolov" />
       <config projectName="filler_mvukolov" targetName="libft" />
+      <config projectName="filler_mvukolov" targetName="filler_mvukolov" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,7 +14,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9614c826-a3cc-4b4c-bd94-96eac68e01dd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/filler_mvukolov" afterPath="$PROJECT_DIR$/cmake-build-debug/filler_mvukolov" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/filler_mvukolov.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/filler_mvukolov.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_flags2.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/CMakeFiles/ft_printf.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/ft_printf.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/ft_printf.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libft_printf.a" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libft_printf.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_atoi.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_bzero.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_add.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_create.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_dict_get.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalnum.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isalpha.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isascii.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isdigit.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isprint.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_isspace.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_itoa_base.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstadd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdel.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstdelone.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstiter.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstmap.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_lstnew.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memalloc.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memccpy.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memchr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcmp.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memcpy.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memdel.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memmove.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_memset.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putchar_fd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putendl_fd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putnbr_fd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_putstr_fd.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcat.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strchr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strclr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcmp.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strcpy.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdel.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strdup.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strequ.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striter.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_striteri.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strjoin.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlcat.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strlen.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmap.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strmapi.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncat.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncmp.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strncpy.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strndup.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnequ.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnew.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strnstr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strrchr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsplit.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strstr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strsub.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strtrim.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_strupper.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_tolower.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/ft_toupper.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/CMakeFiles/libft.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/libftprintf.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/libftprintf.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/liblibft.a" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf/libftprintf/liblibft.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/newfile" afterPath="$PROJECT_DIR$/cmake-build-debug/newfile" />
+      <change beforePath="$PROJECT_DIR$/resources/filler.trace" afterPath="$PROJECT_DIR$/resources/filler.trace" />
       <change beforePath="$PROJECT_DIR$/resources/test" afterPath="$PROJECT_DIR$/resources/test" />
+      <change beforePath="$PROJECT_DIR$/srcs/can_place.c" afterPath="$PROJECT_DIR$/srcs/can_place.c" />
+      <change beforePath="$PROJECT_DIR$/srcs/filler.c" afterPath="$PROJECT_DIR$/srcs/filler.c" />
+      <change beforePath="$PROJECT_DIR$/srcs/get_current_map.c" afterPath="$PROJECT_DIR$/srcs/get_current_map.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +173,84 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/test">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.35078126">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="filler.c" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/srcs/filler.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="get_current_map.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/srcs/get_current_map.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-718">
+                  <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="horizontal" split-proportion="0.71119136">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="can_place.c" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/srcs/can_place.c">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="204">
+                      <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="fuck" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/resources/fuck">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="374">
+                      <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="fuck" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/cmake-build-debug/fuck">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="204">
+                      <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="test" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/resources/test">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="340">
+                      <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +273,9 @@
         <option value="$PROJECT_DIR$/srcs/parce_piece.c" />
         <option value="$PROJECT_DIR$/srcs/filler.c" />
         <option value="$PROJECT_DIR$/srcs/can_place.c" />
+        <option value="$PROJECT_DIR$/srcs/get_current_map.c" />
         <option value="$PROJECT_DIR$/resources/test" />
+        <option value="$PROJECT_DIR$/resources/fuck" />
       </list>
     </option>
   </component>
@@ -75,11 +290,9 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-35" />
-    <option name="width" value="1368" />
-    <option name="height" value="804" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -106,6 +319,11 @@
             <path>
               <item name="filler_mvukolov" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filler_mvukolov" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -121,7 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
   </component>
   <component name="RecentsManager">
@@ -196,26 +414,30 @@
       <workItem from="1515193894180" duration="518000" />
       <workItem from="1515194502500" duration="6810000" />
       <workItem from="1515234413385" duration="563000" />
+      <workItem from="1515342793169" duration="429000" />
+      <workItem from="1515346576623" duration="182000" />
+      <workItem from="1515351141745" duration="5730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26324000" />
+    <option name="totallyTimeSpent" value="32665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-14" width="1368" height="783" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13616398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32552084" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3230216" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3057554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30543932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30347222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -228,22 +450,22 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32374102" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29707113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29640287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30543932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30359712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -257,35 +479,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/srcs/filler.c</url>
-          <line>22</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/srcs/can_place.c</url>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ft_printf/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/get_next_line/get_next_line.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_next_line/get_next_line.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
@@ -436,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_printf/libftprintf/ft_strlen.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ft_printf/ft_printf/get_func_dict.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -534,14 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/srcs/get_current_map.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filler.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -550,33 +737,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/newfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_printf/libftprintf/ft_strlen.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/srcs/parce_piece.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/srcs/filler.c">
+    <entry file="file://$PROJECT_DIR$/srcs/get_current_map.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="-718">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/fuck">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/srcs/can_place.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="204">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="340">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srcs/filler.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fuck">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

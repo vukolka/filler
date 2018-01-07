@@ -30,11 +30,5 @@ int		main()
 		j = 0;
         i++;
     }
-	i = 0;
-	while (state.piece[i])
-	{
-		ft_printf("%s\n", state.piece[i]);
-		i++;
-	}
     return (0);
 }

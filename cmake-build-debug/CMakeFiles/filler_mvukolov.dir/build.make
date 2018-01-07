@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/vukolov/Downloads/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vukolov/Documents/unit/filler
+CMAKE_SOURCE_DIR = /Users/mvukolov/Documents/filler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vukolov/Documents/unit/filler/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mvukolov/Documents/filler/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/filler_mvukolov.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/filler_mvukolov.dir/flags.make
 
 CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
 CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o: ../srcs/filler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o   -c /home/vukolov/Documents/unit/filler/srcs/filler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o   -c /Users/mvukolov/Documents/filler/srcs/filler.c
 
 CMakeFiles/filler_mvukolov.dir/srcs/filler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/srcs/filler.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/srcs/filler.c > CMakeFiles/filler_mvukolov.dir/srcs/filler.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/srcs/filler.c > CMakeFiles/filler_mvukolov.dir/srcs/filler.c.i
 
 CMakeFiles/filler_mvukolov.dir/srcs/filler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/srcs/filler.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/srcs/filler.c -o CMakeFiles/filler_mvukolov.dir/srcs/filler.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/srcs/filler.c -o CMakeFiles/filler_mvukolov.dir/srcs/filler.c.s
 
 CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o.provides.build: CMakeFiles/filler
 
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o: ../get_next_line/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o   -c /home/vukolov/Documents/unit/filler/get_next_line/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o   -c /Users/mvukolov/Documents/filler/get_next_line/get_next_line.c
 
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/get_next_line/get_next_line.c > CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/get_next_line/get_next_line.c > CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.i
 
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/get_next_line/get_next_line.c -o CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/get_next_line/get_next_line.c -o CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s
 
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o.provides.build: C
 
 CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
 CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o: ../srcs/get_current_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o   -c /home/vukolov/Documents/unit/filler/srcs/get_current_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o   -c /Users/mvukolov/Documents/filler/srcs/get_current_map.c
 
 CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/srcs/get_current_map.c > CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/srcs/get_current_map.c > CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.i
 
 CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/srcs/get_current_map.c -o CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/srcs/get_current_map.c -o CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.s
 
 CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o.provides.build: CMakeFil
 
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o: ../srcs/can_place.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o   -c /home/vukolov/Documents/unit/filler/srcs/can_place.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o   -c /Users/mvukolov/Documents/filler/srcs/can_place.c
 
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/srcs/can_place.c > CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/srcs/can_place.c > CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.i
 
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/srcs/can_place.c -o CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/srcs/can_place.c -o CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.s
 
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o.provides.build: CMakeFiles/fil
 
 CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
 CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o: ../srcs/parce_piece.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o   -c /home/vukolov/Documents/unit/filler/srcs/parce_piece.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o   -c /Users/mvukolov/Documents/filler/srcs/parce_piece.c
 
 CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vukolov/Documents/unit/filler/srcs/parce_piece.c > CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/srcs/parce_piece.c > CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i
 
 CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vukolov/Documents/unit/filler/srcs/parce_piece.c -o CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/srcs/parce_piece.c -o CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s
 
 CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.requires:
 
@@ -196,9 +196,8 @@ filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/build.make
 filler_mvukolov: ft_printf/libftprintf/liblibft.a
 filler_mvukolov: ft_printf/libft_printf.a
-filler_mvukolov: ft_printf/libftprintf/liblibft.a
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable filler_mvukolov"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable filler_mvukolov"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filler_mvukolov.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +218,6 @@ CMakeFiles/filler_mvukolov.dir/clean:
 .PHONY : CMakeFiles/filler_mvukolov.dir/clean
 
 CMakeFiles/filler_mvukolov.dir/depend:
-	cd /home/vukolov/Documents/unit/filler/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vukolov/Documents/unit/filler /home/vukolov/Documents/unit/filler /home/vukolov/Documents/unit/filler/cmake-build-debug /home/vukolov/Documents/unit/filler/cmake-build-debug /home/vukolov/Documents/unit/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mvukolov/Documents/filler/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mvukolov/Documents/filler /Users/mvukolov/Documents/filler /Users/mvukolov/Documents/filler/cmake-build-debug /Users/mvukolov/Documents/filler/cmake-build-debug /Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/filler_mvukolov.dir/depend
 

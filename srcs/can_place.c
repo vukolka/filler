@@ -21,21 +21,22 @@ int 	can_place_current(int x, int y, int corneri, int cornerj)
 		{
 			if (piece[i][j] == '*')
 			{
-				if (i + corneri < 0 || j + cornerj < 0)
+				if (x - corneri + i < 0 || y - cornerj + j < 0)
 					return (0);
-				if (placed && state.map[x + corneri][y + cornerj] == 'X')
+				if (placed && state.map[x - corneri + i][y - cornerj + j] == 'X'
+						|| state.map[x - corneri + i][y - cornerj + j] == 'x')
 					return (0);
-				else if (state.map[x + corneri][y + cornerj] == 'X')
+				else if (state.map[x - corneri + i][y - cornerj + j] == 'X'
+						 || state.map[x - corneri + i][y - cornerj + j] == 'x')
 					placed = 1;
 			}
 			j++;
-			cornerj++;
 		}
-		cornerj -= j;
 		j = 0;
 		i++;
-		corneri++;
 	}
+	if (placed == 0)
+		return (0);
 	return (1);
 }
 
@@ -47,16 +48,21 @@ int 	*can_place(int i, int j)
 	x = 0;
 	y = 0;
 	int *res = malloc(8);
-	while (state.piece[x]) {
-		while (state.piece[x][y]) {
+	while (state.piece[x])
+	{
+		while (state.piece[x][y])
+		{
 			if (state.piece[x][y] == '*')
-				if (can_place_current(i, j, -x, -y))
+			{
+				if (can_place_current(i, j, x, y))
 				{
 					res[0] = i - x;
 					res[1] = j - y;
 					return (res);
 				}
+			}
 			y++;
+
 		}
 		y = 0;
 		x++;
