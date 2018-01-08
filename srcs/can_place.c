@@ -21,13 +21,17 @@ int 	can_place_current(int x, int y, int corneri, int cornerj)
 		{
 			if (piece[i][j] == '*')
 			{
-				if (x - corneri + i < 0 || y - cornerj + j < 0)
+				if (x - corneri + i < 0 || y - cornerj + j < 0
+					|| x - corneri + i >= state.rows || y - cornerj + j >= state.cols)
 					return (0);
-				if (placed && state.map[x - corneri + i][y - cornerj + j] == 'X'
-						|| state.map[x - corneri + i][y - cornerj + j] == 'x')
+				if (state.map[x - corneri + i][y - cornerj + j] == ENEMY - 32
+					|| state.map[x - corneri + i][y - cornerj + j] == ENEMY)
 					return (0);
-				else if (state.map[x - corneri + i][y - cornerj + j] == 'X'
-						 || state.map[x - corneri + i][y - cornerj + j] == 'x')
+				if (placed && (state.map[x - corneri + i][y - cornerj + j] == PLAYER - 32
+						|| state.map[x - corneri + i][y - cornerj + j] == PLAYER))
+					return (0);
+				else if (state.map[x - corneri + i][y - cornerj + j] == PLAYER
+						 || state.map[x - corneri + i][y - cornerj + j] == PLAYER - 32)
 					placed = 1;
 			}
 			j++;

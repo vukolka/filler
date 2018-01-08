@@ -10,6 +10,8 @@ include_directories(get_next_line)
 
 include_directories(ft_printf)
 
+include_directories(ft_printf/ft_printf)
+
 include_directories(ft_printf/libftprintf)
 
 add_subdirectory(ft_printf)

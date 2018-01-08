@@ -77,21 +77,21 @@ fcntl.h
 -
 get_next_line.h
 -
-libftprintf/libft.h
+libft.h
 -
-ft_printf/ft_printf.h
+ft_printf.h
 -
 ../filler.h
 /Users/mvukolov/Documents/filler/filler.h
 
 /Users/mvukolov/Documents/filler/srcs/get_current_map.c
-libftprintf/libft.h
+libft.h
 -
 fcntl.h
 -
 get_next_line.h
 -
-ft_printf/ft_printf.h
+ft_printf.h
 -
 ../filler.h
 /Users/mvukolov/Documents/filler/filler.h

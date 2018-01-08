@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/mvukolov/Documents/filler/get_next_line -I/Users/mvukolov/Documents/filler/ft_printf -I/Users/mvukolov/Documents/filler/ft_printf/libftprintf -I/Users/mvukolov/Documents/filler/ft_printf/ft_printf 
+C_INCLUDES = -I/Users/mvukolov/Documents/filler/get_next_line -I/Users/mvukolov/Documents/filler/ft_printf -I/Users/mvukolov/Documents/filler/ft_printf/ft_printf -I/Users/mvukolov/Documents/filler/ft_printf/libftprintf 
 

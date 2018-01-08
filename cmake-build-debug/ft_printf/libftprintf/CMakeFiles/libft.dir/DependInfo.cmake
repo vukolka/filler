@@ -76,6 +76,7 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../get_next_line"
   "../ft_printf"
+  "../ft_printf/ft_printf"
   "../ft_printf/libftprintf"
   )
 
