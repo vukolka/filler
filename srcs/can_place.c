@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "../filler.h"
 
-extern t_settings state;
+extern t_settings *state;
 
 int 	can_place_current(int x, int y, int corneri, int cornerj)
 {
@@ -14,7 +14,7 @@ int 	can_place_current(int x, int y, int corneri, int cornerj)
 	i = 0;
 	j = 0;
 	placed = 0;
-	piece = state.piece;
+	piece = state->piece;
 	while (piece[i])
 	{
 		while (piece[i][j])
@@ -22,16 +22,16 @@ int 	can_place_current(int x, int y, int corneri, int cornerj)
 			if (piece[i][j] == '*')
 			{
 				if (x - corneri + i < 0 || y - cornerj + j < 0
-					|| x - corneri + i >= state.rows || y - cornerj + j >= state.cols)
+					|| x - corneri + i >= state->rows || y - cornerj + j >= state->cols)
 					return (0);
-				if (state.map[x - corneri + i][y - cornerj + j] == ENEMY - 32
-					|| state.map[x - corneri + i][y - cornerj + j] == ENEMY)
+				if (state->map[x - corneri + i][y - cornerj + j] == ENEMY - 32
+					|| state->map[x - corneri + i][y - cornerj + j] == ENEMY)
 					return (0);
-				if (placed && (state.map[x - corneri + i][y - cornerj + j] == PLAYER - 32
-						|| state.map[x - corneri + i][y - cornerj + j] == PLAYER))
+				if (placed && (state->map[x - corneri + i][y - cornerj + j] == PLAYER - 32
+						|| state->map[x - corneri + i][y - cornerj + j] == PLAYER))
 					return (0);
-				else if (state.map[x - corneri + i][y - cornerj + j] == PLAYER
-						 || state.map[x - corneri + i][y - cornerj + j] == PLAYER - 32)
+				else if (state->map[x - corneri + i][y - cornerj + j] == PLAYER
+						 || state->map[x - corneri + i][y - cornerj + j] == PLAYER - 32)
 					placed = 1;
 			}
 			j++;
@@ -52,11 +52,11 @@ int 	*can_place(int i, int j)
 	x = 0;
 	y = 0;
 	int *res = malloc(8);
-	while (state.piece[x])
+	while (state->piece[x])
 	{
-		while (state.piece[x][y])
+		while (state->piece[x][y])
 		{
-			if (state.piece[x][y] == '*')
+			if (state->piece[x][y] == '*')
 			{
 				if (can_place_current(i, j, x, y))
 				{

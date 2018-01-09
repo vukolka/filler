@@ -5,6 +5,10 @@ CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o: ../ft_printf/lib
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o: ../get_next_line/get_next_line.c
 CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o: ../get_next_line/get_next_line.h
 
+CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o: ../ft_printf/libftprintf/libft.h
+CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o: ../filler.h
+CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o: ../srcs/calculate_direction.c
+
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o: ../filler.h
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o: ../srcs/can_place.c
 

@@ -452,6 +452,9 @@
 		<Unit filename="/Users/mvukolov/Documents/filler/get_next_line/get_next_line.h">
 			<Option target="filler_mvukolov"/>
 		</Unit>
+		<Unit filename="/Users/mvukolov/Documents/filler/srcs/calculate_direction.c">
+			<Option target="filler_mvukolov"/>
+		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/filler/srcs/can_place.c">
 			<Option target="filler_mvukolov"/>
 		</Unit>

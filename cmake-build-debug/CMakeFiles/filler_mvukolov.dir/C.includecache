@@ -62,6 +62,12 @@ stdlib.h
 string.h
 -
 
+/Users/mvukolov/Documents/filler/srcs/calculate_direction.c
+libft.h
+-
+../filler.h
+/Users/mvukolov/Documents/filler/filler.h
+
 /Users/mvukolov/Documents/filler/srcs/can_place.c
 wchar.h
 -

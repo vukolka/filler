@@ -1,6 +1,6 @@
 NAME=mvukolov.filler
 FLAGS=-Wall -Wextra -Werror
-OBJECTS = srcs/can_place.o srcs/filler.o srcs/get_current_map.o srcs/parce_piece.o get_next_line/get_next_line.o
+OBJECTS = srcs/can_place.o srcs/filler.o srcs/get_current_map.o srcs/parce_piece.o get_next_line/get_next_line.o srcs/calculate_direction.o
 
 all: $(NAME)
 

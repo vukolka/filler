@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 set(SOURCE_FILES
         srcs/filler.c
-        get_next_line/get_next_line.c srcs/get_current_map.c filler.h srcs/can_place.c srcs/parce_piece.c)
+        get_next_line/get_next_line.c srcs/get_current_map.c filler.h srcs/can_place.c srcs/parce_piece.c srcs/calculate_direction.c)
 include_directories(get_next_line)
 
 include_directories(ft_printf)

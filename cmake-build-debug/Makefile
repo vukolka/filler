@@ -176,6 +176,33 @@ get_next_line/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.s
 .PHONY : get_next_line/get_next_line.c.s
 
+srcs/calculate_direction.o: srcs/calculate_direction.c.o
+
+.PHONY : srcs/calculate_direction.o
+
+# target to build an object file
+srcs/calculate_direction.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o
+.PHONY : srcs/calculate_direction.c.o
+
+srcs/calculate_direction.i: srcs/calculate_direction.c.i
+
+.PHONY : srcs/calculate_direction.i
+
+# target to preprocess a source file
+srcs/calculate_direction.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.i
+.PHONY : srcs/calculate_direction.c.i
+
+srcs/calculate_direction.s: srcs/calculate_direction.c.s
+
+.PHONY : srcs/calculate_direction.s
+
+# target to generate assembly for a file
+srcs/calculate_direction.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.s
+.PHONY : srcs/calculate_direction.c.s
+
 srcs/can_place.o: srcs/can_place.c.o
 
 .PHONY : srcs/can_place.o
@@ -298,6 +325,9 @@ help:
 	@echo "... get_next_line/get_next_line.o"
 	@echo "... get_next_line/get_next_line.i"
 	@echo "... get_next_line/get_next_line.s"
+	@echo "... srcs/calculate_direction.o"
+	@echo "... srcs/calculate_direction.i"
+	@echo "... srcs/calculate_direction.s"
 	@echo "... srcs/can_place.o"
 	@echo "... srcs/can_place.i"
 	@echo "... srcs/can_place.s"

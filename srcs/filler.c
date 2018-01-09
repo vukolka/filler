@@ -5,7 +5,29 @@
 #include <ft_printf.h>
 #include "../filler.h"
 
-extern t_settings  state;
+extern t_settings  *state;
+
+void	free2d(char ***array_src)
+{
+	char **array;
+	int i;
+
+	array = *array_src;
+	i = 0;
+	while (array[i])
+	{
+		free(array[i]);
+		i++;
+	}
+	free(array);
+	*array_src = NULL;
+}
+
+void	free_map()
+{
+	free2d(&(state->map));
+	free2d(&(state->piece));
+}
 
 int		abs(int a)
 {
@@ -14,13 +36,18 @@ int		abs(int a)
 	return (a);
 }
 
-int 	is_better(int x, int y, int prex, int prey, int *dir)
+int 	is_better(int x, int y, int prex, int prey, const int *dir)
 {
 	int was;
 	int is;
+	int dirx;
+	int diry;
 
-	is = abs(dir[0] - x) + abs(dir[1] - y);
-	was = abs(dir[0] - prex) + abs(dir[1] - prey);
+	dirx = dir[0];
+	diry = dir[1];
+
+	is = abs(dirx - x) + abs(diry - y);
+	was = abs(dirx - prex) + abs(diry - prey);
 	if (is < was)
 		return (1);
 	return (0);
@@ -33,13 +60,13 @@ t_list	*get_legal_moves()
 	t_list	*legal_moves;
 	int		*res;
 
-	//ft_printf("%d\n", state.rows);
+	//ft_printf("%d\n", state->rows);
 	legal_moves = NULL;
 	x = 0;
 	y = 0;
-	while (state.map[x])
+	while (state->map[x])
 	{
-		while (state.map[x][y])
+		while (x < state->rows && state->map[x][y])
 		{
 			if ((res = can_place(x, y)))
 			{
@@ -55,71 +82,6 @@ t_list	*get_legal_moves()
 	return (legal_moves);
 }
 
-int		*get_the_further(int i, int j)
-{
-	int x;
-	int y;
-	int prex;
-	int prey;
-
-	prex = 0;
-	prey = 0;
-	x = 0;
-	y = 0;
-	while (state.map[x])
-	{
-		while (state.map[x][y])
-		{
-			if (state.map[x][y] == '.')
-			{
-				if (!is_better(x, y, prex, prey, (int[]) {i, j}))
-				{
-					prex = x;
-					prey = y;
-				}
-			}
-			y++;
-		}
-		y = 0;
-		x++;
-	}
-	return ((int[]){prex, prey});
-}
-
-int		*get_direction()
-{
-	int x;
-	int y;
-	int avaragex;
-	int avaragey;
-	int count;
-
-	avaragey = 0;
-	avaragex = 0;
-	count = 0;
-	x = 0;
-	y = 0;
-	while (state.map[x])
-	{
-		while (state.map[x][y])
-		{
-			if (state.map[x][y] == PLAYER ||
-				state.map[x][y] == PLAYER - 32)
-			{
-				avaragex += x;
-				avaragey += y;
-				count++;
-			}
-			y++;
-		}
-		y = 0;
-		x++;
-	}
-	avaragex = avaragex / count;
-	avaragey = avaragey / count;
-	return (get_the_further(avaragex, avaragey));
-
-}
 
 void	make_move(t_list *legal_moves)
 {
@@ -130,6 +92,7 @@ void	make_move(t_list *legal_moves)
 	int *dir;
 
 	dir = get_direction();
+//	ft_printf("dir: %d, %d\n",dir[0], dir[1]);
 	bestx = ((int *)(legal_moves->content))[0];
 	besty = ((int *)(legal_moves->content))[1];
 	head = legal_moves;
@@ -138,6 +101,8 @@ void	make_move(t_list *legal_moves)
 		if (is_better(((int *)legal_moves->content)[0],
 				((int *) legal_moves->content)[1], bestx, besty, dir))
 		{
+//			ft_printf("dir: %d, %d\n",dir[0], dir[1]);
+//			ft_printf("%d, %d\n",bestx, besty);
 			bestx = ((int *) legal_moves->content)[0];
 			besty = ((int *) legal_moves->content)[1];
 		}
@@ -154,13 +119,18 @@ int 	gameloop()
 	get_current_map();
 	legal_moves = get_legal_moves();
 	if (!legal_moves)
+	{
+		ft_printf("0 0\n");
 		exit(1);
+	}
 	make_move(legal_moves);
+	free_map();
 	return (1);
 }
 
 int		main()
 {
+	state = malloc(sizeof(t_settings));
 	while (gameloop())
 		continue;
 	return (0);
