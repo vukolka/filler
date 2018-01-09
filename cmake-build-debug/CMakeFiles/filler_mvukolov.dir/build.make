@@ -153,33 +153,9 @@ CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o.provides: CMakeFiles/filler_mv
 CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o.provides.build: CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o
 
 
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o: ../srcs/parce_piece.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o   -c /Users/mvukolov/Documents/filler/srcs/parce_piece.c
-
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/srcs/parce_piece.c > CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i
-
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/srcs/parce_piece.c -o CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s
-
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.requires:
-
-.PHONY : CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.requires
-
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.provides: CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.requires
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.provides.build
-.PHONY : CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.provides
-
-CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.provides.build: CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o
-
-
 CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
 CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o: ../srcs/calculate_direction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o   -c /Users/mvukolov/Documents/filler/srcs/calculate_direction.c
 
 CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.i: cmake_force
@@ -201,14 +177,38 @@ CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o.provides: CMakeFiles
 CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o.provides.build: CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o
 
 
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o: CMakeFiles/filler_mvukolov.dir/flags.make
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o: ../srcs/external_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o   -c /Users/mvukolov/Documents/filler/srcs/external_functions.c
+
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/filler/srcs/external_functions.c > CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.i
+
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/filler/srcs/external_functions.c -o CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.s
+
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.requires:
+
+.PHONY : CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.requires
+
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.provides: CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.requires
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.provides.build
+.PHONY : CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.provides
+
+CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.provides.build: CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o
+
+
 # Object files for target filler_mvukolov
 filler_mvukolov_OBJECTS = \
 "CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o" \
 "CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o" \
 "CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o" \
 "CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o" \
-"CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o" \
-"CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o"
+"CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o" \
+"CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o"
 
 # External object files for target filler_mvukolov
 filler_mvukolov_EXTERNAL_OBJECTS =
@@ -217,8 +217,8 @@ filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o
-filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o
+filler_mvukolov: CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o
 filler_mvukolov: CMakeFiles/filler_mvukolov.dir/build.make
 filler_mvukolov: ft_printf/libftprintf/liblibft.a
 filler_mvukolov: ft_printf/libft_printf.a
@@ -235,8 +235,8 @@ CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/srcs/fil
 CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o.requires
 CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o.requires
 CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o.requires
-CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o.requires
 CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o.requires
+CMakeFiles/filler_mvukolov.dir/requires: CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o.requires
 
 .PHONY : CMakeFiles/filler_mvukolov.dir/requires
 

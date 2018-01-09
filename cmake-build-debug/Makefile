@@ -230,6 +230,33 @@ srcs/can_place.c.s:
 	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.s
 .PHONY : srcs/can_place.c.s
 
+srcs/external_functions.o: srcs/external_functions.c.o
+
+.PHONY : srcs/external_functions.o
+
+# target to build an object file
+srcs/external_functions.c.o:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o
+.PHONY : srcs/external_functions.c.o
+
+srcs/external_functions.i: srcs/external_functions.c.i
+
+.PHONY : srcs/external_functions.i
+
+# target to preprocess a source file
+srcs/external_functions.c.i:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.i
+.PHONY : srcs/external_functions.c.i
+
+srcs/external_functions.s: srcs/external_functions.c.s
+
+.PHONY : srcs/external_functions.s
+
+# target to generate assembly for a file
+srcs/external_functions.c.s:
+	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.s
+.PHONY : srcs/external_functions.c.s
+
 srcs/filler.o: srcs/filler.c.o
 
 .PHONY : srcs/filler.o
@@ -284,33 +311,6 @@ srcs/get_current_map.c.s:
 	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.s
 .PHONY : srcs/get_current_map.c.s
 
-srcs/parce_piece.o: srcs/parce_piece.c.o
-
-.PHONY : srcs/parce_piece.o
-
-# target to build an object file
-srcs/parce_piece.c.o:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o
-.PHONY : srcs/parce_piece.c.o
-
-srcs/parce_piece.i: srcs/parce_piece.c.i
-
-.PHONY : srcs/parce_piece.i
-
-# target to preprocess a source file
-srcs/parce_piece.c.i:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.i
-.PHONY : srcs/parce_piece.c.i
-
-srcs/parce_piece.s: srcs/parce_piece.c.s
-
-.PHONY : srcs/parce_piece.s
-
-# target to generate assembly for a file
-srcs/parce_piece.c.s:
-	$(MAKE) -f CMakeFiles/filler_mvukolov.dir/build.make CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.s
-.PHONY : srcs/parce_piece.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,15 +331,15 @@ help:
 	@echo "... srcs/can_place.o"
 	@echo "... srcs/can_place.i"
 	@echo "... srcs/can_place.s"
+	@echo "... srcs/external_functions.o"
+	@echo "... srcs/external_functions.i"
+	@echo "... srcs/external_functions.s"
 	@echo "... srcs/filler.o"
 	@echo "... srcs/filler.i"
 	@echo "... srcs/filler.s"
 	@echo "... srcs/get_current_map.o"
 	@echo "... srcs/get_current_map.i"
 	@echo "... srcs/get_current_map.s"
-	@echo "... srcs/parce_piece.o"
-	@echo "... srcs/parce_piece.i"
-	@echo "... srcs/parce_piece.s"
 .PHONY : help
 
 

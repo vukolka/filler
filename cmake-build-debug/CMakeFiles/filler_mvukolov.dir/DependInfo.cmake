@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mvukolov/Documents/filler/get_next_line/get_next_line.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/get_next_line/get_next_line.c.o"
   "/Users/mvukolov/Documents/filler/srcs/calculate_direction.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/calculate_direction.c.o"
   "/Users/mvukolov/Documents/filler/srcs/can_place.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/can_place.c.o"
+  "/Users/mvukolov/Documents/filler/srcs/external_functions.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/external_functions.c.o"
   "/Users/mvukolov/Documents/filler/srcs/filler.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/filler.c.o"
   "/Users/mvukolov/Documents/filler/srcs/get_current_map.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/get_current_map.c.o"
-  "/Users/mvukolov/Documents/filler/srcs/parce_piece.c" "/Users/mvukolov/Documents/filler/cmake-build-debug/CMakeFiles/filler_mvukolov.dir/srcs/parce_piece.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

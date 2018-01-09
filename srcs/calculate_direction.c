@@ -1,62 +1,60 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   calculate_direction.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/01/09 03:59:35 by mvukolov          #+#    #+#             */
+/*   Updated: 2018/01/09 03:59:36 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <libft.h>
 #include "../filler.h"
 
-extern t_settings *state;
+extern t_settings	*g_state;
 
-int		*get_the_further(int i, int j)
+static int			*get_the_further(int i, int j, int x, int y)
 {
-	int x;
-	int y;
 	int prex;
 	int prey;
 	int *res;
 
 	prex = 0;
 	prey = 0;
-	x = 0;
-	y = 0;
-	while (state->map[x])
+	while (g_state->map[x])
 	{
-		while (x < state->rows && state->map[x][y])
+		while (x < g_state->rows && g_state->map[x][y])
 		{
-			if (state->map[x][y] == '.')
-			{
-				if (!is_better(x, y, prex, prey, (int[]) {i, j}))
+			if (g_state->map[x][y] == '.')
+				if (!is_better((int[]){x, y}, prex, prey, (int[]) {i, j}))
 				{
 					prex = x;
 					prey = y;
 				}
-			}
 			y++;
 		}
 		y = 0;
 		x++;
 	}
-	res = malloc (8);
+	res = malloc(8);
 	res[0] = prex;
 	res[1] = prey;
 	return (res);
 }
 
-int		*get_direction()
+int					*get_direction(int x, int y, int avaragex, int avaragey)
 {
-	int x;
-	int y;
-	int avaragex;
-	int avaragey;
 	int count;
 
-	avaragey = 0;
-	avaragex = 0;
 	count = 0;
-	x = 0;
-	y = 0;
-	while (x < state->rows&& state->map[x])
+	while (x < g_state->rows && g_state->map[x])
 	{
-		while (state->map[x][y])
+		while (g_state->map[x][y])
 		{
-			if (state->map[x][y] == PLAYER ||
-				state->map[x][y] == PLAYER - 32)
+			if (g_state->map[x][y] == PLAYER ||
+				g_state->map[x][y] == PLAYER - 32)
 			{
 				avaragex += x;
 				avaragey += y;
@@ -69,6 +67,5 @@ int		*get_direction()
 	}
 	avaragex = avaragex / count;
 	avaragey = avaragey / count;
-	return (get_the_further(avaragex, avaragey));
-
+	return (get_the_further(avaragex, avaragey, 0, 0));
 }

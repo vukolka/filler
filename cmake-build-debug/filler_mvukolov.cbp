@@ -458,13 +458,13 @@
 		<Unit filename="/Users/mvukolov/Documents/filler/srcs/can_place.c">
 			<Option target="filler_mvukolov"/>
 		</Unit>
+		<Unit filename="/Users/mvukolov/Documents/filler/srcs/external_functions.c">
+			<Option target="filler_mvukolov"/>
+		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/filler/srcs/filler.c">
 			<Option target="filler_mvukolov"/>
 		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/filler/srcs/get_current_map.c">
-			<Option target="filler_mvukolov"/>
-		</Unit>
-		<Unit filename="/Users/mvukolov/Documents/filler/srcs/parce_piece.c">
 			<Option target="filler_mvukolov"/>
 		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/filler/CMakeLists.txt">
